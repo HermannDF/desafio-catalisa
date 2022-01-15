@@ -39,3 +39,9 @@ main {
     padding: 9px 23px;
     text-transform: uppercase;
 }
+
+/* Destaca o botao ao passar o mouse em cima */
+#botao:hover {
+    transform: scale(1.1);
+    transition: all 0.1s;
+}
