@@ -18,3 +18,24 @@ main {
     justify-content: center;
     position: relative;
 }
+
+#botao {
+    background-image: radial-gradient(
+        #1E90FF,
+        #483D8B
+    );
+    border: none;
+    border-radius: 4px;
+    color: white;
+    display: block;
+    font-family: EuclidBold;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.6px;
+    line-height: 20px;
+    margin-bottom: 6%;
+    margin-left: -15px;
+    margin-top: 10%;
+    padding: 9px 23px;
+    text-transform: uppercase;
+}
