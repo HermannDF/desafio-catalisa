@@ -18,3 +18,8 @@ const imagen3 = document.querySelector('#img3');
 const nomeDoPersonagem3 = document.querySelector('#nome3');
 const especie3 = document.querySelector('#especie3');
 const condicao3 = document.querySelector('#condicao3');
+
+//Funcao para gerar numero aleatorio
+gerarValorAleatorio = () => {
+    return Math.floor(Math.random() * 671);
+}
