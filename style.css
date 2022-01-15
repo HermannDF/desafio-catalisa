@@ -63,3 +63,8 @@ main > section ul {
     list-style-type: none;
     width: 90%;
 }
+
+main > section > ul > li {
+    align-items: baseline;
+    display: flex;
+}
