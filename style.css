@@ -68,3 +68,8 @@ main > section > ul > li {
     align-items: baseline;
     display: flex;
 }
+
+main > section > ul > li p {
+    color: white;
+    margin-left: 5px; /* Separar os dados dos personagens de seus titulos */
+}
