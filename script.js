@@ -77,3 +77,8 @@ pegarPersonagem3 = () => {
         condicao3.innerHTML = data.status;
     });
 }
+
+//Funcao para chamar as tres funcoes de localizacao de personagem, fazendo que sejam executadas juntas
+exibirPersonagens = () => {
+    return pegarPersonagem1(), pegarPersonagem2(), pegarPersonagem3();
+}
