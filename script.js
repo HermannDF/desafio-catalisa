@@ -82,3 +82,6 @@ pegarPersonagem3 = () => {
 exibirPersonagens = () => {
     return pegarPersonagem1(), pegarPersonagem2(), pegarPersonagem3();
 }
+
+//Botao para exibir os tres personagens aleatoriamente
+botao.onclick = exibirPersonagens;
